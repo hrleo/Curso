@@ -1,0 +1,41 @@
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px,1fr));
+    gap: 15px;
+    
+
+  }
+.container{
+  min-height: 100vh;
+  background: #eee;
+}
+.post-content{
+  padding: 30px;
+  
+}
+.post:hover{
+  transform: scale(1.02);
+}
+.post img{
+  max-width: 100%;
+}
+.post{
+  transition: transform 100ms ease-in-out;
+}
+#p{
+  display: block;
+}
+.button-container{
+  display: flex;
+  min-height: 60px;
+  align-items: flex-end;
+ 
+}
+
+.search-container{
+  
+  margin-bottom: 30px;
+}
+.search-container h1{
+  margin-bottom: 30px;
+}
